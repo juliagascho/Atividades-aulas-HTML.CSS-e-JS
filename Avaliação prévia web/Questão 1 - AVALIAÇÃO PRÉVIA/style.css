@@ -1,0 +1,248 @@
+body{background: #ffd9e7;
+}
+
+.h3{
+    background-color: #482f3e;
+    margin: 0px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #dc9a94;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+header{    
+    background-color: #ffd9e7;
+    border-radius: 5px;   
+}
+
+nav li{
+    display: none;  
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+
+#cabeca a {
+    text-decoration: none;
+    color: #9f677b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    padding: 0 10px;
+}
+
+#cabeca a:hover{
+    color: #d5787d;
+}
+
+#logo{
+    border-radius: 5px; 
+    margin-bottom: -40px; 
+    margin-left: -10px; 
+}
+
+#pesquisa{
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px dotted #d5787d;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+    color: #9f677b;
+}
+
+#menu{
+    background-color: #dc9a94;
+    height: 40px;
+    border-radius: 5px;
+    padding-bottom: 0;
+    
+}
+#menu ul li {
+    display: inline;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #ffd9e7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menu a:hover{
+    color: #6a4658;
+}
+
+#descricao{
+    float: left;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; 
+    width: 100vw;   
+}
+
+#imgDescricao{
+    border-radius: 2px;
+    margin: 0px;
+    padding: 0px;
+    height: 400px;
+    float: right;    
+}
+
+#p1{    
+    padding-left: 35px;
+    padding-right: 45px; 
+    padding-top: 60px; 
+    padding-bottom: 40px;
+    margin-top: 0;  
+    font-size: 18px;
+    height: 300px;
+    width: 320px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: center;
+    background-color: #482f3e;
+    color: #f6b7aa; 
+       
+}
+
+#servicos{
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 100px 30px;
+    margin-top: 0;
+    width: 230px;
+    line-height: 50px;
+    font-style: oblique;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #703946;
+    color: #ffd9e7;    
+}
+
+#arranjos{
+    padding-top: 300px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #952c55;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fotos2{
+    margin: 0px 10px 0px 10px;  
+}
+
+.produtos {
+    padding: 8px 20px;
+    float: left;
+    display: inline;
+    color:  #d64273;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;  
+    margin-bottom: 50px;
+}
+
+.clique{
+    color: #b05a91;
+    border-radius: 5px;
+    border: 1px dotted #b05a91;
+    cursor: pointer;
+}
+
+.clique:hover {
+    color: #ff71a1;
+    border-radius: 5px;
+    border: 1px dotted gray;
+}
+
+
+#tituloform{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  #b04963;
+    text-align: justify;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.f1{
+    border: 2px solid #ffb8d9;
+    border-radius: 5px;    
+    color: #692641;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    background-image: url(./imagens/pngtree-pink-flowers-background-picture-image_770794.jpg);   
+}
+
+.dados{
+    height: 20px;
+    width: 300px; 
+}
+
+
+#maisvendidos{    
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #ffd9e7;
+    background-color: #703946;
+    width: 1320px; 
+    padding-bottom: 50px; 
+    padding-top: 5px; 
+}
+
+.mais{   
+    float: left;
+    display: inline;
+    color:  #ffd9e7;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-align: center;  
+    margin-bottom: 50px;
+    background-color:#482f3e;
+    padding: 15px;
+     
+}
+
+.fotosmais{
+    width: 300px;  
+}
+
+
+#rodape a {
+    text-decoration: none;
+    color: #ffa08e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px; 
+}
+
+#rodape li {  
+    text-align: center;
+    display: block;
+    bottom: 10px;    
+}
+
+
+#rodape a:visited{
+    color:#6a4658;  
+} 
+   
+    
+
+
+
+
+
+
+
+
+
+
