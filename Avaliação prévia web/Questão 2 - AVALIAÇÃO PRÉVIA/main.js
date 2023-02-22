@@ -74,16 +74,33 @@ for (let i = 0; i < demandaProdutos.length; i++) {
     console.log(`O cliente ${i+1} deverá pagar: R$ ${valoresDemanda[i]}.`)
 } 
 
+//ou
 
 console.log("\n")
+
+
+for(let i in demandaProdutos){
+    valoresDemanda[i] = demandaProdutos[i] * precoFinal
+    console.log(`O cliente ${i} deverá pagar: R$ ${valoresDemanda[i]}.`)
+}
+
+
+console.log("-------------------------")
 
 let totalLucro = 0
 
 for (let i = 0; i < valoresDemanda.length; i++) {
     totalLucro = totalLucro + valoresDemanda[i];       
 }
-
 console.log(`O total de lucro é de R$ ${totalLucro}.`)
 
 
+console.log("\n")
+
+
+totalLucro = 0
+for (let i in valoresDemanda) {
+    totalLucro = totalLucro + valoresDemanda[i];       
+}
+console.log(`O total de lucro é de R$ ${totalLucro}.`)
 
